@@ -82,6 +82,8 @@ Once the recording of any changes to your repo has been started work on your tas
 
 If you should feel a bit uneasy, tense because you can't shed the thought of being watched (event though it's you watching yourself), that's normal. It will go away after a while when you get used to working this way. Try not to force anything. Don't make it a competition with yourself.
 
+
+
 ##### Reflect on your work
 Once the time's up stop the logging by pressing `Ctrl-C`.
 
