@@ -32,7 +32,7 @@ You start DProg by choosing an area of programming you want to improve in. That 
 ### Determine meaningful metrics
 For the chosen area of improvement think of how you'd assess your knowledge, you abilities. What does it take to excell in that area? How could you possibly measure progress?
 
-**Example TDD:**
+Example TDD:
 
 What makes a developer good at applying TDD to a programming problem? Here are some suggestions:
 
@@ -52,7 +52,7 @@ To actually become better at something you have to act. Work through exercises s
 #### Choose a task
 Choose a task to accomplish "under observation" by the DProg tools. You can clone this repo for each task or you can collect several tasks and multiple sessions in a single clone. Go through the above Setup steps at least once, though.
 
-**Example TDD:**
+Example TDD:
 
 If you want to improve your TDD skills you could start with a simple code kata like [From Roman Numerals](https://ccd-school.de/en/coding-dojo/function-katas/from-roman-numerals/).
 
