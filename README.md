@@ -134,7 +134,7 @@ This is the level of insights - be they pleasant or unpleasant. This is where yo
 
 At the end take a breath or two, even a short break.
 
-###### Pass 4: Conclusion
+###### Pass 4: Conclude
 Finally step back and put everything together. What's your conclusion from all that you've gathered in data and insights? What are your "lessons learned"?
 
 Also you might note a resolution for what you want to do better next time. Which concrete measures will you take to improve on the metrics?
