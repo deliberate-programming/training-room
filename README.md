@@ -76,13 +76,13 @@ To start a DProg session you do the following:
 
 In case you expect to do work in tools not leading to files stored in the repo, also start the automatic screen capture tool of your choice. Let it store the screen snapshots in some sub-folder in the repo so they get auto-committed, too.
 
+If you like you can commit manually, too, at any time. 
+
 **Important**: **Be sure to save your work on files belonging to your task often** (be the tests, production code, documentation, diagramms and what-not). Maybe there is an auto-save feature in your IDE which stores changes automatically when switching tabs, or just press a keyboard shortcut whenever you stop typing (or at least at the end of every paragraph). **Make this a habit!** Only that way you'll get a fine grained recording of the progress you make.
 
 Once the recording of any changes to your repo has been started work on your task for the set duration. For 30min of work you'll see at most 30 "anonymous" commits in your repo at the end; probably, though, it will be less because you won't be changing files constantly.
 
 If you should feel a bit uneasy, tense because you can't shed the thought of being watched (event though it's you watching yourself), that's normal. It will go away after a while when you get used to working this way. Try not to force anything. Don't make it a competition with yourself.
-
-
 
 ##### Reflect on your work
 Once the time's up stop the logging by pressing `Ctrl-C`.
