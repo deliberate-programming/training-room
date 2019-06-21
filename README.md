@@ -92,8 +92,11 @@ And then, when you're ready, you come back and go through several passes of refl
 ###### Pass 1: Write a thought log
 Go through the commits of the task period, look at which files changed, look at how they changed and write down for every commit what you remember about your thoughts at that time in the process.
 
-Make it an "impersonal" report. Just note obersavations about your thinking process/progress. This is not the time for judgement or musings.
+Make it an "impersonal" report. Just note obersavations about your thinking process/progress. This is not the time for judgement or musings. This is just a log of your thoughs which led to visible results.
 
+Use a simple .txt/.md file to write this log. And don't "overthink" your entries.
+
+###### Pass 2: 
 
 
 
