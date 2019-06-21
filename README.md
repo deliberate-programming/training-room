@@ -76,7 +76,7 @@ To start a DProg session you do the following:
 
 In case you expect to do work in tools not leading to files stored in the repo, also start the automatic screen capture tool of your choice. Let it store the screen snapshots in some sub-folder in the repo so they get auto-committed, too.
 
-If you like you can commit manually, too, at any time. 
+If you like you can commit manually, too, at any time. By that you can insert more information into the commit stream. Maybe after 10 auto-commits you get to a "milestone" and want to document that explicitly.
 
 **Important**: **Be sure to save your work on files belonging to your task often** (be the tests, production code, documentation, diagramms and what-not). Maybe there is an auto-save feature in your IDE which stores changes automatically when switching tabs, or just press a keyboard shortcut whenever you stop typing (or at least at the end of every paragraph). **Make this a habit!** Only that way you'll get a fine grained recording of the progress you make.
 
