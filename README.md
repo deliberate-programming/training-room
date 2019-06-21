@@ -96,7 +96,10 @@ Make it an "impersonal" report. Just note obersavations about your thinking proc
 
 Use a simple .txt/.md file to write this log. And don't "overthink" your entries.
 
-###### Pass 2: 
+Writing this log should follow the SRP: don't do more than logging your thoughts. Avoid multitasking by switching between different mental levels. Be impartial.
+
+###### Pass 2: Assess your thinking
+Go through your
 
 
 
