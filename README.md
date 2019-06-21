@@ -10,15 +10,9 @@ What DProg is adding to DPrac is a method to work in a focused way on a certain 
 * A small tool called `repeat.exe` is used to trigger Git to record recent file changes.
 * Optionally a tool to take periodic screenshots and add them as files to the Git repo.
 
-### Setup
-0. Clone this repository
-1. Make sure, the .NET Framework or the Mono runtime are installed on your machine. On Windows that should be the case anyway, but on Mac/Linux you might want to check by running the `mono` command in a shell window. See [here](https://www.mono-project.com/docs/getting-started/install/linux/) for installation instructions for Linux or [here](https://www.mono-project.com/docs/getting-started/install/mac/) for macOS in case you're missing Mono.
-2. Run below tests to check if the tool is working correctly for you.
-3. Install a visual Git client. It makes it easier to later go through the automatic commits created during a Deliberate Programming session. The [GitHub Desktop Client](https://desktop.github.com/) would be a free and simple choice.
+See the [setup documentation for details](setup.md)
 
-Optionally you also can install a tool for taking periodic screenshots. This helps if you should be working in non-text files or draw diagrams visible only on screen (eg. by using an online whiteboard app). [Screenbar](https://apps.apple.com/us/app/screenbar/id1329392611?ls=1) can help you on macOS, or see [here](https://www.guidingtech.com/56099/automatically-take-screenshots-windows-pc/) for option on Windows.
-
-### Deliberate Programming
+## Deliberate Programming
 Deliberate Practice [boils down to](https://medium.com/the-crossover-cast/get-better-at-anything-6-steps-of-deliberate-practice-19830bfc9460):
 
 1. Set specific, realistic goals
@@ -32,10 +26,10 @@ But programming in special in so far as "seeking feedback" is easier because you
 
 And Deliberate Programming is special in that it guides you through the practice period and a subsequent reflection. DProg can thus more easily be practiced even without a coach - although getting feedback from a more advanced programmer always in very valuable and should be sought.
 
-#### Choose your area of improvement
+### Choose your area of improvement
 You start DProg by choosing an area of programming you want to improve in. That can be the application of a tool, familiarity with a framework, Clean Code principles, or a method like TDD.
 
-#### Determine meaningful metrics
+### Determine meaningful metrics
 For the chosen area of improvement think of how you'd assess your knowledge, you abilities. What does it take to excell in that area? How could you possibly measure progress?
 
 **Example TDD:**
@@ -52,10 +46,10 @@ When reflecting on a TDD task you sure can assess whether you acted more or less
 
 So much for general DPrag. Now for specific DProg.
 
-#### Run a Deliberate Programming session
+### Run a Deliberate Programming session
 To actually become better at something you have to act. Work through exercises so it's safe to fail. Apply your knowledge and skills at best - and then ruthlessly assess your performance. This is the DProg tools and process come in.
 
-##### Choose a task
+#### Choose a task
 Choose a task to accomplish "under observation" by the DProg tools. You can clone this repo for each task or you can collect several tasks and multiple sessions in a single clone. Go through the above Setup steps at least once, though.
 
 **Example TDD:**
@@ -64,7 +58,7 @@ If you want to improve your TDD skills you could start with a simple code kata l
 
 Choose a task and then right away start working on it "under observation". The more time is logged by the DProg tools the more material there is to reflect and improve on.
 
-##### Work on your task
+#### Work on your task
 To start a DProg session you do the following:
 
 1. Set a timer for how long you want to focus. Experiment with different durations, start with 30 minutes.
@@ -82,9 +76,15 @@ If you like you can commit manually, too, at any time. By that you can insert mo
 
 Once the recording of any changes to your repo has been started work on your task for the set duration. For 30min of work you'll see at most 30 "anonymous" commits in your repo at the end; probably, though, it will be less because you won't be changing files constantly.
 
-If you should feel a bit uneasy, tense because you can't shed the thought of being watched (event though it's you watching yourself), that's normal. It will go away after a while when you get used to working this way. Try not to force anything. Don't make it a competition with yourself.
+Here's an example of what you should see in the console/shell window happening:
 
-##### Reflect on your work
+![](images/commit_log.png)
+
+Sometimes changes get committed, sometimes there is nothing to commit, and so on...
+
+If you should feel a bit uneasy or tense because you can't shed the thought of being watched (event though it's you watching yourself), that's normal. It will go away after a while when you get used to working this way. Try not to force anything. Don't make it a competition with yourself.
+
+#### Reflect on your work
 Once the time's up stop the logging by pressing `Ctrl-C`. Maybe now's the time to take a little break before you start into the next phase of DProg. So far it has been easy. You were doing familiar stuff: programming.
 
 And then, when you're ready, you come back and go through several passes of reflection:
@@ -92,52 +92,58 @@ And then, when you're ready, you come back and go through several passes of refl
 ###### Pass 1: Write a thought log
 Go through the commits of the task period, look at which files changed, look at how they changed and write down for every commit what you remember about your thoughts at that time in the process. (Sometimes several commits can be bundled up in one log entry because they are very related.)
 
-Using a visual Git tool makes it easier to scroll through the commits with their files. (Alternatively push your repo to GitHub, for example, and use the online view of your commits. This even has the advantage of allowing you to link to commits in your log.)
+Using a visual Git tool makes it easier to scroll through the commits with their files. 
+
+![](images/commits_in_git_client.png)
+
+The number of files per commit should be small usually. How many can you change within 60 seconds? (Except if you had a lot of files generated.) Hence it should not be too difficult to follow the unfolding of your results. The increments per sampling period of the automatic log are small.
+
+Alternatively push your repo to GitHub, for example, and use the online view of your commits. This even has the advantage of allowing you to link to commits in your log.
+
+![](images/commits_on_github.png)
 
 Make it an "impersonal" report. Just note obersavations about your thinking process/progress. This is not the time for judgement or musings. This is just a log of your thoughs which led to visible results.
 
 Use a simple .txt/.md file to write this log. And don't "overthink" your entries.
-
 
 Writing this log should follow the SRP: don't do more than logging your thoughts. Avoid multitasking by switching between different mental levels. Try to be impartial.
 
 At the end take a breath or two, even a short break.
 
 ###### Pass 2: Assess your thinking
-Once you've compiled your thought log you gover that (maybe in conjunction
+Once you've compiled your thought log you go over that (maybe in conjunction with the commit log).
 
+Now's the time for assessing your progress. Did your work move along as expected? Where did you struggle? Where did it flow? Look for the conflicts between your expectation and reality. Find any deviation and hesitation with regard to what you wanted to do and what you actually did.
 
+Here also stay focused on just that. Don't get ahead of yourself or the method. First it was just logging raw thoughts. Now it's just logging conflicts/flow.
 
-## Check all is working well on your Windows machine (.NET Framework)
-Open a console window on the repository root and run the following command:
+You might even indulge in a bit of root cause analysis (eg. use 5-whys).
 
-`repeat.exe 5 cmd.exe /c .\hello.bat`
+Write your findings up in another .txt/.md document or expand your thought log. Experiment.
 
-The output should be a "hello, world!" message appearing every 5 seconds.
+At the end take a breath or two, even a short break.
 
-![](images/hello.png)
+###### Pass 3: Evaluate your performance
+Once you've compile your assessment it's judgement time. Evaluate how your work unfolded. Go over your assessment (maybe in conjunction with the thought log).
 
-If that's working fine, run another the following command to check if everything is working well with Git:
+Where did you do well, where did you falter or fail? Take into account the metrics you initially defined for the area of improvement in question. How did you with regard to them? Maybe you improved in some, maybe not.
 
-`repeat.exe 5 cmd.exe /c .\dp-commit.bat`
+What are your strengths, your weaknesses? Find patterns. Ask "What's may part in all of this?"
 
-The output should be something like this to show a commit was actually tried.
+This is the level of insights - be they pleasant or unpleasant. This is where you generate feedback for yourself.
 
-![](images/dp-commit.png)
+At the end take a breath or two, even a short break.
 
-## Check all is working well on your Linux/macOS machine (Mono)
-Open a shell window on the repository root and run the following command:
+###### Pass 4: Conclusion
+Finally step back and put everything together. What's your conclusion from all that you've gathered in data and insights? What are your "lessons learned"?
 
-`mono repeat.exe 5 bash -c ./hello.sh`
+Also you might note a resolution for what you want to do better next time. Which concrete measures will you take to improve on the metrics?
 
-The output should be a "hello, world!" message appearing every 5 seconds.
+And if you like do a little retrospective on the DProg process. How did that feel?
 
-![](images/hello.png)
+## Enjoy!
+Systematically becoming better is no easy task. Going through all the DProg passes is no cakewalk. And it's not supposed to be one. Remember: DPrag is about breaking out of your comfort zone. That's pertaining to the area of improvement, but also it's pertaining to the process of practicing.
 
-If that's working fine, run another the following command to check if everything is working well with Git:
+That said please keep in mind: improvement should be fun, too. Insight by itself, understanding yourself better should lead to relaxation due to the removal of illusion. And that is liberating, a source of joy.
 
-`mono repeat.exe 5 bash -c ./dp-commit.sh`
-
-The output should be something like this to show a commit was actually tried.
-
-![](images/dp-commit.png)
+Try to keep that in mind if DProg should frustrate you once in a while.
