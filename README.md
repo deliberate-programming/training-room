@@ -76,7 +76,7 @@ To start a DProg session you do the following:
 
 In case you expect to do work in tools not leading to files stored in the repo, also start the automatic screen capture tool of your choice. Let it store the screen snapshots in some sub-folder in the repo so they get auto-committed, too.
 
-If you like you can commit manually, too, at any time. By that you can insert more information into the commit stream. Maybe after 10 auto-commits you get to a "milestone" and want to document that explicitly.
+If you like you can commit manually, too, at any time. By that you can insert more information into the commit stream. Maybe after 10 auto-commits you get to a "milestone" and want to document that explicitly. That's great help for you later reflection.
 
 **Important**: **Be sure to save your work on files belonging to your task often** (be the tests, production code, documentation, diagramms and what-not). Maybe there is an auto-save feature in your IDE which stores changes automatically when switching tabs, or just press a keyboard shortcut whenever you stop typing (or at least at the end of every paragraph). **Make this a habit!** Only that way you'll get a fine grained recording of the progress you make.
 
@@ -85,7 +85,9 @@ Once the recording of any changes to your repo has been started work on your tas
 If you should feel a bit uneasy, tense because you can't shed the thought of being watched (event though it's you watching yourself), that's normal. It will go away after a while when you get used to working this way. Try not to force anything. Don't make it a competition with yourself.
 
 ##### Reflect on your work
-Once the time's up stop the logging by pressing `Ctrl-C`.
+Once the time's up stop the logging by pressing `Ctrl-C`. Maybe now's the time to take a little break before you start into the next phase of DProg. So far it has been easy. You were doing familiar stuff: programming.
+
+And then, when you're ready
 
 
 
