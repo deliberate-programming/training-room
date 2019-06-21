@@ -90,16 +90,21 @@ Once the time's up stop the logging by pressing `Ctrl-C`. Maybe now's the time t
 And then, when you're ready, you come back and go through several passes of reflection:
 
 ###### Pass 1: Write a thought log
-Go through the commits of the task period, look at which files changed, look at how they changed and write down for every commit what you remember about your thoughts at that time in the process.
+Go through the commits of the task period, look at which files changed, look at how they changed and write down for every commit what you remember about your thoughts at that time in the process. (Sometimes several commits can be bundled up in one log entry because they are very related.)
+
+Using a visual Git tool makes it easier to scroll through the commits with their files. (Alternatively push your repo to GitHub, for example, and use the online view of your commits. This even has the advantage of allowing you to link to commits in your log.)
 
 Make it an "impersonal" report. Just note obersavations about your thinking process/progress. This is not the time for judgement or musings. This is just a log of your thoughs which led to visible results.
 
 Use a simple .txt/.md file to write this log. And don't "overthink" your entries.
 
-Writing this log should follow the SRP: don't do more than logging your thoughts. Avoid multitasking by switching between different mental levels. Be impartial.
+
+Writing this log should follow the SRP: don't do more than logging your thoughts. Avoid multitasking by switching between different mental levels. Try to be impartial.
+
+At the end take a breath or two, even a short break.
 
 ###### Pass 2: Assess your thinking
-Go through your
+Once you've compiled your thought log you gover that (maybe in conjunction
 
 
 
