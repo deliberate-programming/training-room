@@ -87,7 +87,12 @@ If you should feel a bit uneasy, tense because you can't shed the thought of bei
 ##### Reflect on your work
 Once the time's up stop the logging by pressing `Ctrl-C`. Maybe now's the time to take a little break before you start into the next phase of DProg. So far it has been easy. You were doing familiar stuff: programming.
 
-And then, when you're ready
+And then, when you're ready, you come back and go through several passes of reflection:
+
+###### Pass 1: Write a thought log
+Go through the commits of the task period, look at which files changed, look at how they changed and write down for every commit what you remember about your thoughts at that time in the process.
+
+Make it an "impersonal" report. Just note obersavations about your thinking process/progress. This is not the time for judgement or musings.
 
 
 
