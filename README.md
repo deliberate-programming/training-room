@@ -2,9 +2,11 @@
 
 If you want to try out Deliberate Programming for yourself this is your starting point.
 
-0. Make sure, the .NET Framework or the Mono runtime are installed on your machine. On Windows that should be the case anyway, but on Mac/Linux you might want to check by running the `mono` command in a shell window. See [here](https://www.mono-project.com/docs/getting-started/install/linux/) for installation instructions for Linux and [here](https://www.mono-project.com/docs/getting-started/install/mac/) for macOS in case you're missing Mono.
-1. Clone this repository
+### Setup
+0. Clone this repository
+1. Make sure, the .NET Framework or the Mono runtime are installed on your machine. On Windows that should be the case anyway, but on Mac/Linux you might want to check by running the `mono` command in a shell window. See [here](https://www.mono-project.com/docs/getting-started/install/linux/) for installation instructions for Linux or [here](https://www.mono-project.com/docs/getting-started/install/mac/) for macOS in case you're missing Mono.
 2. Run below tests to check if the tool is working correctly for you.
+3. Install a visual Git client. It makes it easier to later go through the automatic commits created during a Deliberate Programming session. The [GitHub Desktop Client](https://desktop.github.com/) would be a free and simple choice.
 
 
 ## Check all is working well on your Windows machine (.NET Framework)
@@ -40,43 +42,3 @@ If that's working fine, run another the following command to check if everything
 The output should be something like this to show a commit was actually tried.
 
 ![](images/dp-commit.png)
-
-
-
-
-## Prepare
-
-Copy this contents of this folder to the root of your Git repo (or the root of the folder tree you're working under).
-
-Then check that everything is working by first running this test inside the folder in a console/terminal/bash window:
-
-MAC/LINUX
----------
-mono repeat.exe 5 bash -c ./hello.sh
-
-WINDOWS
--------
-repeat.exe 5 cmd.exe /c .\hello.bat
-
-The output should be a "hello, world!" message appearing every 5 seconds.
-
-
-## Use
-
-To actually use repeat.exe to automatically commit changes you need to do the following:
-
-1. Open a console/terminal/bash window on the parent folder, the root of your repo/working tree.
-2. Start auto committing like this:
-
-MAC/LINUX
----------
-mono .deliberate-programming/repeat.exe 60 bash -c .deliberate-programming/dp-commit.sh
-
-WINDOWS
--------
-mono .deliberate-programming\repeat.exe 60 cmd.exe /c .deliberate-programming\dp-commit.bat
-
-
-If you like, do a quick test by first running repeat.exe with a period of 5 seconds instead of 60.
-
-
