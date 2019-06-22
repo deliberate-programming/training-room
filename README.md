@@ -26,6 +26,8 @@ But programming in special in so far as "seeking feedback" is easier because you
 
 And Deliberate Programming is special in that it guides you through the practice period and a subsequent reflection. DProg can thus more easily be practiced even without a coach - although getting feedback from a more advanced programmer always in very valuable and should be sought.
 
+![](images/deliberate_programming.png)
+
 ### Choose your area of improvement
 You start DProg by choosing an area of programming you want to improve in. That can be the application of a tool, familiarity with a framework, Clean Code principles, or a method like TDD.
 
