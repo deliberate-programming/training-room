@@ -40,7 +40,7 @@ What makes a developer good at applying TDD to a programming problem? Here are s
 
 * TDD requires you to write test code before production code. It's a test-first approach.
 * TDD requires test cases to progressively become more "difficult". It's an incremental approach to testing.
-* * TDD requires you to switch between writing test code and production code again and again. It's an iterative approach to testing.
+* TDD requires you to switch between writing test code and production code again and again. It's an iterative approach to testing.
 * TDD requires you to refactor after you got a test to pass. Remember the TDD rhythm: red-green-**refactor**.
 * TDD requires you to write the most simple production code to get the test to pass. Remember the KISS principle. But what is simple? It means at least two things: 1) Future tests don't accidentally are green right away because of excess functionality implemented for an earlier test. 2) All alternative cases in production code are covered by tests written so far.
 
