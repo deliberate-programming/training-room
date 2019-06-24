@@ -1,41 +1,40 @@
 # Setup
-0. Clone this repository
-1. Make sure, the .NET Framework or the Mono runtime are installed on your machine. On Windows that should be the case anyway, but on Mac/Linux you might want to check by running the `mono` command in a shell window. See [here](https://www.mono-project.com/docs/getting-started/install/linux/) for installation instructions for Linux or [here](https://www.mono-project.com/docs/getting-started/install/mac/) for macOS in case you're missing Mono.
-2. Run below initial checks to see if the tool is working correctly for you.
-3. Install a visual Git client. It makes it easier to later go through the automatic commits created during a Deliberate Programming session. The [GitHub Desktop Client](https://desktop.github.com/) would be a free and simple choice.
+#### 1. Get .NET Core
+In order to use the DProg tooling you need to have the .NET Core framework installed. You can [download it for free from Microsoft](https://dotnet.microsoft.com/download) for your operating system.
 
-Optionally you also can install a tool for taking periodic screenshots. This helps if you should be working in non-text files or draw diagrams visible only on screen (eg. by using an online whiteboard app). [Screenbar](https://apps.apple.com/us/app/screenbar/id1329392611?ls=1) can help you on macOS, or see [here](https://www.guidingtech.com/56099/automatically-take-screenshots-windows-pc/) for option on Windows.
+#### 2. Get this repository
+Then fork this repository and clone it to your computer. (If you just clone it you'll not be able to retain any changes by pushing them.)
 
-## Check all is working well on your Windows machine (.NET Framework)
-Open a console window on the repository root and run the following command:
+Alternatively download the ZIP file of the repository and extract it in DProg root directory in some Git repository of your own.
 
-`repeat.exe 5 cmd.exe /c .\hello.bat`
+#### 3. Check the tools
+Open a console/shell window on the directory where the `dp-record.*` files are located in your repository.
 
-The output should be a "hello, world!" message appearing every 5 seconds.
+Run the `dp-record` script for your operating system like this:
 
-![](images/hello.png)
+* Windows: `dp-record.bat 5`
+* Linux/macOS: `./dp-record.sh 5`
 
-If that's working fine, run another the following command to check if everything is working well with Git:
+You should see a message like this:
 
-`repeat.exe 5 cmd.exe /c .\dp-commit.bat`
+![](images/tool_check.png)
 
-The output should be something like this to show a commit was actually tried.
+Now create a text file in the repository and watch what happens in the console/shell windows:
 
-![](images/dp-commit.png)
+![](images/tool_check_change.png)
 
-## Check all is working well on your Linux/macOS machine (Mono)
-Open a shell window on the repository root and run the following command:
+Your change to the repo automatically got committed. Check the commit log with the tool of your choice:
 
-`mono repeat.exe 5 bash -c ./hello.sh`
+![](images/tool_check_log.png)
 
-The output should be a "hello, world!" message appearing every 5 seconds.
+Press `Ctrl-C` to stop the automatic recording.
 
-![](images/hello.png)
+If you got this far without any errors you're set for your first Deliberate Programming session.
 
-If that's working fine, run another the following command to check if everything is working well with Git:
+#### 4. Install a visual Git client (optional)
+Install a visual Git client. It makes it easier to later go through the automatic commits created during a DProg session. The [GitHub Desktop Client](https://desktop.github.com/) would be a free and simple choice.
 
-`mono repeat.exe 5 bash -c ./dp-commit.sh`
+#### 5. Install a screen capturing tool (optional)
+You may also want to install a tool for taking periodic screenshots. This helps if you should be working in non-text files or draw diagrams visible only on screen (eg. by using an online whiteboard app). [Screenbar](https://apps.apple.com/us/app/screenbar/id1329392611?ls=1) can help you on macOS, or see [here](https://www.guidingtech.com/56099/automatically-take-screenshots-windows-pc/) for an option on Windows.
 
-The output should be something like this to show a commit was actually tried.
-
-![](images/dp-commit.png)
+[ImageMagick](https://imagemagick.org/) also is a free cross-platform choice whose `import` tool should do the trick.
