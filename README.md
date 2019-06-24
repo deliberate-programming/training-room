@@ -10,7 +10,7 @@ What DProg is adding to DPrac is a method to work in a focused way on a certain 
 * A small tool called `repeat.exe` is used to trigger Git to record recent file changes.
 * Optionally a tool to take periodic screenshots and add them as files to the Git repo.
 
-See the [setup documentation for details](setup.md)
+See the [setup documentation for details](.doc/setup.md)
 
 ## Deliberate Programming
 Deliberate Practice [boils down to](https://medium.com/the-crossover-cast/get-better-at-anything-6-steps-of-deliberate-practice-19830bfc9460):
@@ -26,7 +26,7 @@ But programming in special in so far as "seeking feedback" is easier because you
 
 And Deliberate Programming is special in that it guides you through the practice period and a subsequent reflection. DProg can thus more easily be practiced even without a coach - although getting feedback from a more advanced programmer always in very valuable and should be sought.
 
-![](images/deliberate_programming.png)
+![](.doc/images/deliberate_programming.png)
 
 ### Choose your area of improvement
 You start DProg by choosing an area of programming you want to improve in. That can be the application of a tool, familiarity with a framework, Clean Code principles, or a method like TDD.
@@ -80,7 +80,7 @@ Once the recording of any changes to your repo has been started work on your tas
 
 Here's an example of what you should see in the console/shell window happening:
 
-![](images/commit_log.png)
+![](.doc/images/commit_log.png)
 
 Sometimes changes get committed, sometimes there is nothing to commit, and so on...
 
@@ -96,13 +96,13 @@ Go through the commits of the task period, look at which files changed, look at 
 
 Using a visual Git tool makes it easier to scroll through the commits with their files. 
 
-![](images/commits_in_git_client.png)
+![](.doc/images/commits_in_git_client.png)
 
 The number of files per commit should be small usually. How many can you change within 60 seconds? (Except if you had a lot of files generated.) Hence it should not be too difficult to follow the unfolding of your results. The increments per sampling period of the automatic log are small.
 
 Alternatively push your repo to GitHub, for example, and use the online view of your commits. This even has the advantage of allowing you to link to commits in your log.
 
-![](images/commits_on_github.png)
+![](.doc/images/commits_on_github.png)
 
 Make it an "impersonal" report. Just note obersavations about your thinking process/progress. This is not the time for judgement or musings. This is just a log of your thoughs which led to visible results.
 
