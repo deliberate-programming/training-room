@@ -3,9 +3,9 @@
 In order to use the DProg tooling you need to have the .NET Core framework installed. You can [download it for free from Microsoft](https://dotnet.microsoft.com/download) for your operating system.
 
 #### 2. Get this repository
-Then fork this repository and clone it to your computer. (If you just clone it you'll not be able to retain any changes by pushing them.)
+Fork this repository and clone it to your computer. (If you just clone it, you'll not be able to retain any changes by pushing them.)
 
-Alternatively download the ZIP file of the repository and extract it in DProg root directory in some Git repository of your own.
+Alternatively download the ZIP file of the repository and extract it to a DProg root directory in some Git repository of your own.
 
 #### 3. Check the tools
 Open a console/shell window on the directory where the `dp-record.*` files are located in your repository.
@@ -19,7 +19,7 @@ You should see a message like this:
 
 ![](images/tool_check.png)
 
-Now create a text file in the repository and watch what happens in the console/shell windows:
+Now create a text file (e.g. `a.txt`) in the repository and watch what happens in the console/shell window:
 
 ![](images/tool_check_change.png)
 
