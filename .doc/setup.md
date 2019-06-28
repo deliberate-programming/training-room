@@ -29,7 +29,7 @@ Your change to the repo automatically got committed. Check the commit log with t
 
 Press `Ctrl-C` to stop the automatic recording.
 
-Please also check the directory `Screenshots` in the root of your repo. That's where `dp-record` automatically saves screenshots taken every interval seconds.
+Please also have a look at the directory `Screenshots` in the root of your repo. That's where `dp-record` automatically saved screenshots taken at the end of every interval.
 
 If you got this far without any errors you're set for your first Deliberate Programming session.
 
