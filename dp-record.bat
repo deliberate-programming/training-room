@@ -1,3 +1,2 @@
 @echo off 
-cd .tooling
-dotnet exec dp-record.dll %1 %2
+dotnet exec .tooling\dp-record.dll %1 %2 %3 %4 %5

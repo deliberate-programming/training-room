@@ -1,3 +1,2 @@
 #!/bin/bash
-cd .tooling
-dotnet exec dp-record.dll $@
+dotnet exec .tooling/dp-record.dll $@
