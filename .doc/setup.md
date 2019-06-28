@@ -29,12 +29,9 @@ Your change to the repo automatically got committed. Check the commit log with t
 
 Press `Ctrl-C` to stop the automatic recording.
 
+Please also check the directory `Screenshots` in the root of your repo. That's where `dp-record` automatically saves screenshots taken every interval seconds.
+
 If you got this far without any errors you're set for your first Deliberate Programming session.
 
 #### 4. Install a visual Git client (optional)
 Install a visual Git client. It makes it easier to later go through the automatic commits created during a DProg session. The [GitHub Desktop Client](https://desktop.github.com/) would be a free and simple choice.
-
-#### 5. Install a screen capturing tool (optional)
-You may also want to install a tool for taking periodic screenshots. This helps if you should be working in non-text files or draw diagrams visible only on screen (eg. by using an online whiteboard app). [Screenbar](https://apps.apple.com/us/app/screenbar/id1329392611?ls=1) can help you on macOS, or see [here](https://www.guidingtech.com/56099/automatically-take-screenshots-windows-pc/) for an option on Windows.
-
-[ImageMagick](https://imagemagick.org/) also is a free cross-platform choice whose `import` tool should do the trick.

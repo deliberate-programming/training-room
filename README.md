@@ -7,8 +7,7 @@ Deliberate Programming is about systematically getting better at, well, programm
 **What DProg is adding to DPrac is a method to work in a focused way on a certain area of improvement and reflect on the experience. For that purpose DProg is employing some tools for automatic observation of one's progress while working on a task.**
 
 * Git serves as the "flight recorder" logging all thoughts materializing in files.
-* A small tool called `dp-record` is used to trigger Git to record recent file changes.
-* Optionally a tool to take periodic screenshots and add them as files to the Git repo.
+* A small tool called `dp-record` is used to trigger Git to record recent file changes as well as screenshots.
 
 See the [setup documentation for details](.doc/setup.md)
 
@@ -73,7 +72,7 @@ To start a DProg session do the following:
 * Windows: `dp-record.bat`
 * Linux/macOS: `./dp-record.sh`
 
-In case you expect to do work with tools not leading to files stored in the repo, also start the automatic screen capture tool of your choice. Let it store the screen snapshots in some sub-folder in the repo so they get auto-committed, too.
+`dp-record` will automatically record screenshots in the directory `<repo root>/Screenshots` unless you switch this functionality off by providing the flag `-noscreenshots` on the commandline! That means you'll always at least get a visual record of what you're doing.
 
 If you like, you can commit manually, too, at any time. By that you can insert more information into the commit stream. Maybe after 10 auto-commits you get to a "milestone" and want to document that explicitly. That's great help for you later reflection.
 
